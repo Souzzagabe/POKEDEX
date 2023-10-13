@@ -14,7 +14,7 @@ const fetchPokemon = async (pokemon) => {
 
     if (APIResnponse.status == 200) {
         const data = await APIResnponse.json()
-    return data
+        return data
     }  
 }
 
